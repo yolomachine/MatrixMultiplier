@@ -1,0 +1,80 @@
+Sample: hilb(10)                          10000         118 mcs/op
+Sample: no thread 50x50                    5000         391 mcs/op
+Sample: 50x50                              2000         701 mcs/op
+Sample: 500x500                               5      396079 mcs/op
+C:\Users\üòò\documents\visual studio 2013\Projects\mutex_multiplication\Release\mutex_multiplication.exe 10.728s
+Threads used: 1
+CPU load: 12.2911
+
+
+
+Sample: hilb(10)                           5000         206 mcs/op
+Sample: no thread 50x50                    5000         395 mcs/op
+Sample: 50x50                              2000         527 mcs/op
+Sample: 500x500                               5      210151 mcs/op
+C:\Users\üòò\documents\visual studio 2013\Projects\mutex_multiplication\Release\mutex_multiplication.exe 8.646s
+Threads used: 2
+CPU load: 24.4975
+
+
+
+Sample: hilb(10)                           5000         303 mcs/op
+Sample: no thread 50x50                    5000         393 mcs/op
+Sample: 50x50                              2000         569 mcs/op
+Sample: 500x500                              10      149205 mcs/op
+C:\Users\üòò\documents\visual studio 2013\Projects\mutex_multiplication\Release\mutex_multiplication.exe 10.697s
+Threads used: 3
+CPU load: 34.8529
+
+
+
+Sample: hilb(10)                           5000         398 mcs/op
+Sample: no thread 50x50                    5000         397 mcs/op
+Sample: 50x50                              2000         648 mcs/op
+Sample: 500x500                              10      125788 mcs/op
+C:\Users\üòò\documents\visual studio 2013\Projects\mutex_multiplication\Release\mutex_multiplication.exe 11.507s
+Threads used: 4
+CPU load: 45.9237
+
+
+
+Sample: hilb(10)                           5000         490 mcs/op
+Sample: no thread 50x50                    5000         390 mcs/op
+Sample: 50x50                              2000         707 mcs/op
+Sample: 500x500                              10      154009 mcs/op
+C:\Users\üòò\documents\visual studio 2013\Projects\mutex_multiplication\Release\mutex_multiplication.exe 12.958s
+Threads used: 5
+CPU load: 42.9875
+
+
+
+Sample: hilb(10)                           2000         598 mcs/op
+Sample: no thread 50x50                    5000         392 mcs/op
+Sample: 50x50                              2000         828 mcs/op
+Sample: 500x500                              10      160111 mcs/op
+C:\Users\üòò\documents\visual studio 2013\Projects\mutex_multiplication\Release\mutex_multiplication.exe 11.538s
+Threads used: 6
+CPU load: 59.7719
+
+
+
+Sample: hilb(10)                           2000         692 mcs/op
+Sample: no thread 50x50                    5000         392 mcs/op
+Sample: 50x50                              2000         949 mcs/op
+Sample: 500x500                              10      150506 mcs/op
+C:\Users\üòò\documents\visual studio 2013\Projects\mutex_multiplication\Release\mutex_multiplication.exe 12.186s
+Threads used: 7
+CPU load: 72.6857
+
+
+
+Sample: hilb(10)                           2000         788 mcs/op
+Sample: no thread 50x50                    5000         392 mcs/op
+Sample: 50x50                              1000        1023 mcs/op
+Sample: 500x500                              10      153108 mcs/op
+C:\Users\üòò\documents\visual studio 2013\Projects\mutex_multiplication\Release\mutex_multiplication.exe 10.935s
+Threads used: 8
+CPU load: 86.8854
+
+
+
