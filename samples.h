@@ -10,6 +10,12 @@ namespace sample {
 		return A.no_thread_matrix_partition_multiply(B);
 	}
 
+	Matrix<int> _no_thread_500x500() {
+		Matrix<int> A(500, 10);
+		Matrix<int> B(500, 20);
+		return A.no_thread_matrix_partition_multiply(B);
+	}
+
 	Matrix<int> _50x50() {
 		Matrix<int> A(50, 10);
 		Matrix<int> B(50, 20);
