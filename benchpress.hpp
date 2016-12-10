@@ -479,7 +479,7 @@ int run(int argc, char** argv) {
             std::chrono::high_resolution_clock::now() - bp_start
     ).count() / 1000.f;
 	std::fstream fout("benchmark_out_info.txt", std::fstream::app);
-    fout << argv[0] << " " << duration << "s" << std::endl;
+    fout << duration << "s" << std::endl;
 	fout.close();
     return 0;
 }

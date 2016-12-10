@@ -146,6 +146,12 @@ BENCHMARK("Sample: 50x50", [](benchpress::context* ctx) {
 		sample::_50x50();
 });
 
+BENCHMARK("Sample: no thread 500x500", [](benchpress::context* ctx) {
+	ctx->reset_timer();
+	for (size_t i = 0; i < ctx->num_iterations(); ++i)
+		sample::_no_thread_500x500();
+});
+
 BENCHMARK("Sample: 500x500", [](benchpress::context* ctx) {
 	ctx->reset_timer();
 	for (size_t i = 0; i < ctx->num_iterations(); ++i) {
